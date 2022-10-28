@@ -1,0 +1,33 @@
+:root { 
+  --black: #000000;
+  --earls-green: #c1b03e;
+  --onyx: #39393b;
+  --pale-oyster: #998c80;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 24px;
+  --font-size-s: 16px;
+  --font-size-xl: 64px;
+  --font-size-xxl: 96px;
+  --font-size-xxxl: 140px;
+  --font-size-xxxxl: 400px;
+ 
+  --font-family-allura: "Allura", Helvetica;
+  --font-family-cerlions-regular: "Cerlions-Regular", Helvetica;
+  --font-family-cinzel: "Cinzel", Helvetica;
+}
+.cinzel-normal-pale-oyster-16px {
+  color: var(--pale-oyster);
+  font-family: var(--font-family-cinzel);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.allura-normal-pale-oyster-96px {
+  color: var(--pale-oyster);
+  font-family: var(--font-family-allura);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
